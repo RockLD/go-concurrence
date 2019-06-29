@@ -1,14 +1,13 @@
 package main
 
-import (
-	"github.com/RockLD/go-concurrence/grammar"
-	"fmt"
-)
+import "github.com/RockLD/go-concurrence/concurrence-programme"
 
 func main() {
 	//grammar.TypeGrammar()
 	//grammar.Redeclare()
-	defer fmt.Println("deffffffer6")
+	//defer fmt.Println("deffffffer6")
 	//grammar.Defer()
-	grammar.PanicRecover()
+	//grammar.PanicRecover()
+	//concurrence_programme.GetPid()
+	concurrence_programme.Exec()
 }
