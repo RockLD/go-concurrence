@@ -1,6 +1,8 @@
 package main
 
-import "github.com/RockLD/go-concurrence/concurrence-programme"
+import (
+	"github.com/RockLD/go-concurrence/socket"
+)
 
 func main() {
 	//grammar.TypeGrammar()
@@ -9,5 +11,7 @@ func main() {
 	//grammar.Defer()
 	//grammar.PanicRecover()
 	//concurrence_programme.GetPid()
-	concurrence_programme.Exec()
+	//concurrence_programme.Exec()
+	//socket.Serve()
+	socket.Client()
 }
